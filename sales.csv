@@ -1,4 +1,4 @@
-OrderNo,ItemID,SalesDate,DeilveryDate,CustomerId,CityId,Qty,Price,Cost,DiscountPercent
+OrderNo,ItemID,SalesDate,DeliveryDate,CustomerId,CityId,Qty,Price,Cost,DiscountPercent
 20277,37,10/3/2020,10/6/2020,2691,26,1,233,172,12
 22328,23,10/3/2020,10/7/2020,6085,61,1,60,54,9
 22784,53,10/3/2020,10/9/2020,3562,19,1,333,259,5
