@@ -1,0 +1,20 @@
+--SQL Query 1
+SELECT a2.Category, SUM(Gross)
+FROM Sales a1
+LEFT JOIN Item a2 ON a1.ItemID=a2.ItemId 
+GROUP BY a2.Category
+ORDER BY a2.Category
+
+
+
+--SQL Query 2
+SELECT a2.Category, YEAR(a3.Date) as Year, SUM(Gross) as Gross
+FROM Sales a1
+LEFT JOIN Item a2 ON a1.ItemID=a2.ItemId 
+LEFT JOIN Date a3 ON a1.SalesDate=a3.Date
+GROUP BY a2.Category, YEAR(a3.Date)
+ORDER BY a2.Category, YEAR(a3.Date)
+
+
+
+--
